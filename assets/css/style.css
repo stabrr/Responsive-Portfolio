@@ -237,3 +237,58 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 640px) {
+
+.container{
+  max-width: 640px;
+}
+#masthead{
+  clear: all;
+}
+  nav {
+    max-width: none;
+    width: 100%;
+
+  }
+
+  #logo{
+    max-width: none;
+    width: 100%;
+
+  }
+.sidebar{
+    max-width: none;
+    width: 100%;
+}
+.auth-image{
+  float: none;
+  width: 100%;
+  margin: none;
+}
+}
+
+@media screen and (max-width: 768px){
+  
+  .main-section{
+    float: none;
+    max-width: 768px;
+    width: 100%;
+  }
+  .sidebar{
+    float: none;
+    max-width: 768px;
+    width: 100%;
+  } 
+}
+@media screen and (max-width: 980px){
+.auth-image{
+float: none;
+width: 100%;
+}
+.work{
+  float: none;
+  width: none;
+  overflow: none;
+}
+}
