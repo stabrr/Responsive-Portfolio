@@ -249,6 +249,7 @@ input[type=submit] {
   nav {
     max-width: none;
     width: 100%;
+    text-align: center;
 
   }
 
@@ -269,21 +270,35 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px){
-  
+  .container{
+  max-width: 768px;
+}
+
+#main-container{
+    max-width: none;
+    width: 100%;
+}  
   .main-section{
     float: none;
-    max-width: 768px;
+    padding-left: 20px;
+    max-width: none;
     width: 100%;
   }
   .sidebar{
-    float: none;
-    max-width: 768px;
+    max-width: none;
     width: 100%;
   } 
 }
-@media screen and (max-width: 980px){
+@media screen and (min-width: 768px) and (max-width: 980px){
+.container{
+  max-width: 980px;
+} 
+
+.main-section{
+  width: 50%;
+  margin-left: 20px;
+}
 .auth-image{
-float: none;
 width: 100%;
 }
 .work{
